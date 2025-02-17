@@ -37,7 +37,7 @@ public class IdomokTest {
 
     @Test
     void testGombSuly(){
-        idom = new Gomb(1.0);
+        idom =  new FaIdom(1.0);
         double d = idom.suly();
         assertEquals(3.351, idom.suly(), 0.001);
     }
